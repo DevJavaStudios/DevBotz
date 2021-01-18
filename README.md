@@ -1,31 +1,31 @@
-# wabot-aq
-Simple WhatsApp Bot
+# DevBotz
+Bot traduzido para pt br by Dev Java Studios❤️💞💖
 
-### FOR TERMUX USER
+### TERMUX
 ```bash
 > pkg update && pkg upgrade
 > pkg install git -y
 > pkg install nodejs -y
 > pkg install ffmpeg -y
 > pkg install imagemagick -y
-> git clone https://github.com/Nurutomo/wabot-aq
-> cd wabot-aq
+> git clone https://github.com/DevJavaStudios/DevBotz
+> cd DevBotz
 > npm install
 ```
-###### Run
+###### run
 ```bash
-> node . [<session name>] (session name is optional)
+> node . [<sessão nome>] (o nome da sessão é opcional)
 ```
 
 ---------
 
-### FOR WINDOWS/VPS/RDP USER
+### PARA WINDOWS/VPS/RDP
 ```bash
-> git clone https://github.com/Nurutomo/wabot-aq
-> cd wabot-aq
+> git clone https://github.com/DevJavaStudios/DevBotz
+> cd DevBotz
 > npm install
 ```
-###### Run
+###### Último comando para iniciar
 ```bash
 > node index.js
 ```
