@@ -42,11 +42,11 @@ if (opts['server']) conn.on('qr', qr => { global.qr = qr })
 conn.on('credentials-updated', () => fs.writeFileSync(authFile, JSON.stringify(conn.base64EncodedAuthInfo())))
 let lastJSON = JSON.stringify(global.DATABASE.data)
 setInterval(async () => {
-  conn.logger.info('Salvando banco de dados . . .')
+  conn.logger.info('Carregando... By Dev Java')
   if (JSON.stringify(global.DATABASE.data) == lastJSON) conn.logger.info('O banco de dados está atualizado')
   else {
     global.DATABASE.save()
-    conn.logger.info('Concluído salvar banco de dados!')
+    conn.logger.info('By Dev Java Conectado')
     lastJSON = JSON.stringify(global.DATABASE.data)
   }
 }, 60 * 1000) // Save every minute
